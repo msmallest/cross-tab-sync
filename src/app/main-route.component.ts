@@ -1,15 +1,14 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { NgxsComponent } from "./ngxs/ngxs.component";
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-main-route',
   standalone: true,
-  imports: [RouterOutlet, NgxsComponent],
+  imports: [NgxsComponent],
   template: `
-    <router-outlet />
     <app-ngxs />
-  `
+  `,
 })
-export class AppComponent {
+export class MainRouteComponent {
+
 }
