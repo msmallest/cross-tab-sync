@@ -8,7 +8,6 @@ import { NgxsComponent } from "./ngxs/ngxs.component";
   imports: [RouterOutlet, NgxsComponent],
   template: `
     <router-outlet />
-    <app-ngxs />
   `
 })
 export class AppComponent {
